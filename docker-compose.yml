@@ -1,0 +1,37 @@
+
+services:
+  meep:
+    build:
+      context: ./meep
+    env_file:
+      - ./environ/meep.env
+    container_name: meep
+    ports:
+      - 8080:8080  # Propagate changes to LANGGRAPH_SERVER_URL of EVERY environ/*.env (services)
+    volumes:
+      - ./meep/src:/app
+    command: uv run langgraph dev --port 8080 --host 0.0.0.0
+
+  discord_interface_1:
+    build:
+      context: ./interfaces/discord
+    env_file:
+      - ./environ/discord_1.env
+    container_name: discord_interface_1
+    volumes:
+      - ./interfaces/discord/src:/app/src
+    ports:
+      - 8000:8000  # Propagate changes to CALLBACK_API_URL in environ/discord_1.env
+    command: uv run uvicorn src.main:app --host 0.0.0.0 --port 8000
+
+  streamlit_interface_1:
+    build:
+      context: ./interfaces/streamlit
+    env_file:
+      - ./environ/streamlit_1.env
+    container_name: streamlit_interface_1
+    ports:
+      - 8501:8501
+    volumes:
+      - ./interfaces/streamlit/src:/app/src
+    command: uv run streamlit run src/main.py --server.port 8501

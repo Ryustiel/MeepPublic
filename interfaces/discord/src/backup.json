@@ -1,0 +1,44 @@
+{
+    "confirm_tool_calls": {
+        "1406554248354730024": {
+            "authorized_user_ids": [
+                361438727492337664
+            ],
+            "tool_call": {
+                "name": "perform_action_number_4",
+                "args": {
+                    "parameter": 2.0,
+                    "requestor": "Raphael"
+                },
+                "id": "call_powSYiiozjUdXKdy0WO3gswx",
+                "type": "tool_call"
+            }
+        },
+        "1406556003926802624": {
+            "authorized_user_ids": [
+                361438727492337664
+            ],
+            "tool_call": {
+                "name": "perform_action_number_4",
+                "args": {
+                    "parameter": 2,
+                    "requestor": "Raphael"
+                },
+                "id": "call_0DfN8v3PTiYKa6V9N4CnvKra",
+                "type": "tool_call"
+            }
+        }
+    },
+    "tool_call_groups": [
+        {
+            "state": "cancel",
+            "tool_call_ids": []
+        }
+    ],
+    "new_messages": {
+        "868592422110777404": []
+    },
+    "new_tool_call_updates": {
+        "868592422110777404": []
+    }
+}

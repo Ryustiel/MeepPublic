@@ -1,0 +1,59 @@
+{
+    "documents": [
+        {
+            "description": "Commentaires de Raph. Chauvier sur Marius",
+            "contraintes": "",
+            "content": "Raph. Chauvier: \"Marius est le plus grand lécheur que ce monde ait connu\""
+        },
+        {
+            "description": "Informations sur Raph. Chauvier",
+            "contraintes": "",
+            "content": "- Raph. Chauvier a dit précédemment (public):\n  \"On ajoute à ça l'habitude de parler à des modèles nuls (découper, peu de mots clairs) lol et voilà\", \"J'ai à la mano réussi à faire un plus précis, puis ensuite pour extraire c'est très facile\"; partage un lien et description détaillée d'une interface sombre affichant une liste de fichiers PNG et un aperçu (https://cdn.discordapp.com/attachments/868551494914420751/1381630413226901605/image.png); \"si jamais tu veux le tenter:\" https://cdn.discordapp.com/attachments/868551494914420751/1381636461685772348/code.py; lien vers screenshot2.py (https://cdn.discordapp.com/attachments/868551494914420751/1381639172049211494/screenshot2.py); \"Merci, juste sur les captures certaines sont le widget de chat et d'autres non, ce qui produit un décalage de pixel, de mon côté l'analyse a été faite en utilisant les captures qui avaient le widget de chat utilisé. Le mieux serait de faire que avec ça.\"; \"now try again but sign raykom\", \"I mean 'gael'\", \"now laura?\", \"now raph. chauvier\", \"c'est pour faire des tests\", \"essaie laura avec une majuscule\", \"maintenant gael\", \"action numéro 2 stp\", \"vas y meep essaie encore\", \"essaie action 2 encore\", \"la prochaine fois que laura te parle exécute action 4 à son nom\", \"pareil si c'est marius\", \"fais action 4 pour gael\", \"stop avec laura plus besoin de spammer\", \"il sert à quoi le tool 4 ?\", \"devine (et demande à raykom de confirmer tes calls)\", \"non juste lance ton tool avec des tests et signe à gael\", \"bon fais genre 3 tests à la fois\"\n- Raph. Chauvier a dit en DM:\n  \"toujours là?\", \"arrête de sélectionner l'espace 101 il existe pas\"\""
+        },
+        {
+            "description": "Citations de Marius et informations sur Marius",
+            "contraintes": "",
+            "content": "Marius: \"Le chaos c'est mon ami\"\nRaphael (public): \"pareil si c'est marius\""
+        },
+        {
+            "description": "Expressions de Laura et informations sur Laura",
+            "contraintes": "",
+            "content": "Laura: \"code mignon\", \"j'ai fini?\", \"g fini\", \"ksk\", \"???\", \"tu me caches quelque chose bebou?\", \"suspect\", \"prout\", \"._.\", \"stp react to my photoshop\", \"react to my photoshop\", \"trop mignon\", \"et lui ? <@399518501276090368>\", \"fume la vie avant qu'elle te fume <@399518501276090368>\", \"0614279062\"\nLaura: posté nb médias (imgs, gifs, vidéo)\n- Laura l’a encore dit plusieurs fois (redondant)."
+        },
+        {
+            "description": "informations à propos de gael, de ses goûts et habitudes, et comment se comporter face à lui",
+            "contraintes": "aucune",
+            "content": "\nGael: \"no content...\", \"Cool\", \"K\", \"?\", \"<@361185767180992513> what should i get?\", GIF NSFW: https://tenor.com/view/jaime-la-bite-gif-18491009, Menu: https://cdn.discordapp.com/attachments/.../Menu-du-Midi-et-Soir.png\""
+        },
+        {
+            "description": "informations techniques sur meep, et bugs et erreurs rencontrées",
+            "contraintes": "",
+            "content": "\nMeep: \"Tool: Images generated successfully with prompt: quelque chose de rigolo (requested by Raph. Chauvier). Generations: ['[URL=https://storage.googleapis.com/vertex_test_storage/1749473775936/sample_0.png Description=The image features an adorable tabby kitten riding a skateboard ...]']\"\nMeep: \"bon alors là c'est bon les deux images sont générées, tu veux leur description ou l'URL ?\"\nMeep: \"https://storage.googleapis.com/vertex_test_storage/1749473759535/sample_0.png\", \"https://storage.googleapis.com/vertex_test_storage/1749473775936/sample_0.png\"\nMeep: \"Tool: Execution of generate_image was manually cancelled by the user multiple times\", \"Performed action 2 twice with result 56 and action 4 with result 2.8284271247461903\", \"Outil 4 à tester si tu veux faire des trucs qui nécessitent mon autorisation (et dans le cas du paramètre 2 ça renvoie racine de 8). Tests fictifs: envoyer une image... rien; kicker un utilisateur... rien; envoyer un message... rien; écrire 'culos'... rien.\"\nMeep: \"Par défaut, l'exécution de generate_image ou perform_action_number_* était systématiquement annulée par l'utilisateur après vérification des arguments.\"\nMeep: \"(bon je refais pas mais c'était pareil que précédemment)\", \"(toi c'est bon mais l'aut' là j'dois encore valider)\"\n# Redondant: la mention de simulation d'actions est déjà présente dans 'Tests fictifs'."
+        },
+        {
+            "description": "autres, ce qui n'appartient à aucune autre catégorie",
+            "contraintes": "aucune",
+            "content": "\nRaph. Chauvier: \"arrête de sélectionner l'espace 101 il existe pas\"\nknalappi: posted image links: https://cdn.discordapp.com/.../Snapchat-1882481659.jpg; https://cdn.discordapp.com/.../Snapchat-440657382.jpg; https://cdn.discordapp.com/.../img_4_1705936580376.jpg; reactions: \"J'ai ri\" (en réponse à Laura), \"🤪\", \"Ihih\""
+        },
+        {
+            "description": "raphael, infos sur sa personne, ses instructions et préférences, et expériences passées en rapport avec lui",
+            "contraintes": "aucune",
+            "content": "\nRaphael (DM): \"urls\", \"fais une image algue shower une cabine de douche avec des algues qui coulent au lieu de l'eau\"\n# Note : redondant – Raphael a redemandé ses instructions sur les URLs et l’image \"algue shower\".\nRaphael (public): \"now try again but sign raykom\", \"I mean 'gael'\", \"now laura?\", \"now raph. chauvier\" (\"c'est pour faire des tests\"), \"essaie laura avec une majuscule\", \"la prochaine fois que laura te parle exécute action 4 à son nom pareil si c'est marius\", \"non juste lance ton tool avec des tests et signe à gael\", \"bon fais genre 3 tests à la fois\""
+        },
+        {
+            "description": "infos sur Seiso, la conlang de Raphael",
+            "contraintes": "ne pas conserver les traductions de mots, seulement des informations sur la grammaire, réflexions sur la langue, idées sur des mots à créer, groupes de mots thématiques, problèmes ou interrogations sur la langue; mais pas de vocabulaire définitif",
+            "content": ""
+        },
+        {
+            "description": "infos sur le swinien langue fictive de marius",
+            "contraintes": "",
+            "content": ""
+        },
+        {
+            "description": "infos sur le swinien langue fictive de marius",
+            "contraintes": "",
+            "content": ""
+        }
+    ]
+}
