@@ -97,7 +97,7 @@ Meep is a modular, multi-interface conversational AI built on LangGraph. It can 
 
     - `environ/meep.env`: For the core agent service (OpenAI, LangSmith connections).
     ```dotenv
-    OPENAI_API_KEY="sk-..."
+    OPENAI_API_KEY="..."
     
     # Optional logging
     LANGSMITH_TRACING=true
@@ -195,3 +195,4 @@ Meep is a modular, multi-interface conversational AI built on LangGraph. It can 
         ├── langgraph.json      # LangGraph CLI configuration.
         └── pyproject.toml      # Dependencies for the core meep service.
 ```
+
